@@ -1,2 +1,2 @@
 # Calculator Project 
-Using HTML CSS and javascript..
+Using HTML CSS and javascript !
