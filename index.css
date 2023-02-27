@@ -1,0 +1,166 @@
+* {
+ font-family: 'Roboto Mono', monospace; 
+ background: #040C18;
+
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #031B34;
+   color: #81AFDD;
+   font-size: 3rem;
+   line-height: 3.7rem;
+   height: 4rem;
+    
+}
+
+.form {
+    box-sizing: border-box;
+    border: grey solid 2px;
+    border-radius: 17px;
+    padding: 49px;
+    margin: 0px 5px;
+    
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+
+.text {
+    font-size: 21px;
+    color :#FF8A71 ;
+}
+
+.input{
+    color:#0C0C0C;
+    background: white;
+    border-radius:  gold solid ;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    margin : 0px 7px;
+    padding: 3px;
+    width: 17rem;
+}
+
+
+/*
+.button {
+    background: #DCCA87;
+    color:#0C0C0C;
+    width: 4rem;
+    height : 2rem;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 77px 0px 77px 230px;
+    
+
+}
+
+.button:hover {
+    color: blue;
+    background: yellow;
+    cursor: pointer;
+}
+
+ */
+
+ .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+.button1 {
+    background: #DCCA87;
+    color:#0C0C0C;
+    width: 4rem;
+    height : 2rem;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 77px 5px;
+
+}
+
+    
+
+.button1:hover {
+    color: blue;
+    background: yellow;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (min-width: 700px) {
+    .form {
+      padding: 4rem;
+    }
+  
+    .form {
+      margin: 4rem;
+    }
+
+    
+
+.button1{
+   padding: 0px 0px 0px 0px;
+   margin:0px 0px 4px 0px;
+
+
+  }
+}
+
+footer {
+  color:snow;
+}
+
+.text1 {
+  padding: 0px 0px 0px 17px;
+  display: flex;
+  justify-content: center  ;
+
+}
+  
+
+@media screen and (max-width: 866px) {
+    .form {
+      padding: 4rem;
+    }
+  
+    .form {
+      margin: 4rem;
+    }
+
+    .line {
+      display: flex;
+      justify-content: space-evenly;
+    
+      padding : 0px 4px 0px 0px;
+      margin: 0px 4px 0px 0px ;
+  }
+
+    .text {
+        font-size: 17px;
+        color :#FF8A71 ;
+    }
+ 
+.button1{
+   padding: 0px 0px 0px 0px;
+   margin:0px 0px 4px 0px;
+
+  }
+
+  .input {
+    width : 11rem;
+  }
+}
+  

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!--
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    -->
+    
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+
+
+   
+
+
+   <!--
+    <script>
+        function add() 
+        {
+            var a = parseInt(document.getElementById("first").value);
+            var b =parseInt(document.getElementById("second").value);
+            var sum = a + b;
+            document.getElementById("answer").value= sum; 
+        }
+    </script>   -->
+    
+
+
+</head>
+
+<body>
+    
+    <nav>
+        <h1 class="head">Calculator</h1>
+    </nav>
+
+    <div class="form">
+
+        <div class="line">
+            <label class="text">Enter the First Number &nbsp;:</label>
+            <input type="number" name=""  id="first"  placeholder ="Enter the 1st Number"  class="input">
+        </div>
+    
+        <br />
+        <div class="line">
+            <label class="text">Enter the Second Number :</label>
+            <input type="number" name=""  id="second"  placeholder ="Enter the 2nd number" class="input" > 
+    
+        </div>
+    
+            <br />
+
+        <div class="row">
+           
+            <div> 
+                <button type="button" id="add" onclick="add()"  class="button1">Add </button>
+                <button type="button" id="sub" onclick="sub()" class="button1">Sub </button>
+                <button type="button" id="multi" onclick="multi()" class="button1">Multi </button>
+                <button type="button" id="divi" onclick="divi()" class="button1"> Divi </button>
+                <button type="button" id="reset" onclick="reset()" class="button1"> Reset </button>
+                <button type="button" id="prime" onclick="prime()" class="button1"> Prime </button>
+                <input id="third" class="input" placeholder="Enter number to get prime number" > 
+            </div>
+    
+        </div>
+    
+            <br /> 
+
+        <div class="line">
+            <label class="text">Result -</label>
+            <input id="answer" class="input" >  
+        </div>
+
+    </div>
+
+   
+        
+    
+</body>
+
+<footer>
+
+    <div class="text1">
+        <p>WEBSITE POLICIES / HELP / CONTACT US / FEEDBACK<br>
+          Content Owned by District Administration
+          © Content owned and maintained by Bidar District Administration. <br> Developed and hosted by National Informatics Centre,
+          Ministry of Electronics & Information Technology, Government of India</p>
+      </div>
+      <div class="img">          
+          <img src="Images/nicLogo.png" >            
+      </div>
+
+</footer>
+
+</html>
